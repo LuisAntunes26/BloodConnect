@@ -2,13 +2,13 @@
 buildscript {
     repositories {
         google()
-
+        mavenCentral()  // Maven Central repository
     }
     dependencies {
         def nav_version = "2.4.2"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
         classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0"
-
+        classpath 'com.google.gms:google-services:4.3.13'
     }
 }
 
@@ -19,4 +19,15 @@ plugins {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+allprojects {
+    repositories {
+        // Make sure that you have the following two repositories
+        // TODO possivel futura causa de erro
+        // google()  // Google's Maven repository
+
+        // mavenCentral()  // Maven Central repository
+
+    }
 }

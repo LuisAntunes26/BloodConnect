@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'androidx.navigation.safeargs'
+
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -44,4 +46,7 @@ dependencies {
     def room_version = "2.4.1"
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    implementation platform('com.google.firebase:firebase-bom:31.1.1')
+    implementation 'com.google.firebase:firebase-analytics'
 }
