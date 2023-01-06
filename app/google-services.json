@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "585783914067",
+    "project_id": "bloodconnect2023",
+    "storage_bucket": "bloodconnect2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585783914067:android:4553112f657f7a289f60a6",
+        "android_client_info": {
+          "package_name": "pt.ipbeja.twdm.pdm2.bloodconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585783914067-rvs52p0pp8nqbsk3sru4jh1p8fsod3m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_8x2xLLKU9Egw2EXcPCnXHlgCEgwxf_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585783914067-rvs52p0pp8nqbsk3sru4jh1p8fsod3m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
