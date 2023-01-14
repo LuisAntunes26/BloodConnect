@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">BloodConnect</string>
+    <string name="activity_register_your_blood_type">Your blood type:</string>
+    <string name="activity_register_submit">Submit</string>
 </resources>
